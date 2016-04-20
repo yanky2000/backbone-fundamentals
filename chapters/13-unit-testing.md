@@ -156,7 +156,7 @@ it('the callback should be executed on success', function () {
     // Create a new spy
     var callback = jasmine.createSpy();
 
-    // Exexute the spy callback if the
+    // Execute the spy callback if the
     // request for Todo 15 is successful
     getTodo(15, callback);
 
